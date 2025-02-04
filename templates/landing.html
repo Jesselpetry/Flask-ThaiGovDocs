@@ -147,41 +147,38 @@
         </div>
     </section>
 
-    <!-- How To Section -->
-    <section class="how-to" id="how-to">
-        <h2>วิธีการใช้งาน</h2>
-        <div class="steps">
-            <div class="step">
-                <div class="step-number">1</div>
-                <img src="{{ url_for('static', filename='images/step1.gif') }}" 
-                     alt="Step 1" 
-                     class="step-image"
-                     onerror="this.src='https://via.placeholder.com/200'">
-                <h3>เลือก Template</h3>
-                <p>เลือก Template ที่ต้องการจากระบบ เพื่อเริ่มสร้างเอกสาร</p>
-            </div>
-
-            <div class="step">
-                <div class="step-number">2</div>
-                <img src="{{ url_for('static', filename='images/step2.png') }}" 
-                     alt="Step 2" 
-                     class="step-image"
-                     onerror="this.src='https://via.placeholder.com/200'">
-                <h3>กรอกข้อมูล</h3>
-                <p>กรอกข้อมูลที่จำเป็นในแบบฟอร์มที่กำหนด</p>
-            </div>
-
-            <div class="step">
-                <div class="step-number">3</div>
-                <img src="{{ url_for('static', filename='images/step3.png') }}" 
-                     alt="Step 3" 
-                     class="step-image"
-                     onerror="this.src='https://via.placeholder.com/200'">
-                <h3>สร้างเอกสาร</h3>
-                <p>ระบบจะสร้างเอกสารให้โดยอัตโนมัติ พร้อมให้ดาวน์โหลด</p>
-            </div>
+<!-- How To Section -->
+<section class="how-to" id="how-to">
+    <h2>วิธีการใช้งาน</h2>
+    <div class="steps">
+        <div class="step">
+            <div class="step-number">1</div>
+            <video autoplay loop muted playsinline class="step-video">
+                <source src="https://cdn.discordapp.com/attachments/956103263659368458/1336381820295708742/COM_1.mp4?ex=67a39a0e&is=67a2488e&hm=bd4b6d88eeb0afcc2c998bf1c6992aebe35c4990518781e33a593db2eee22ca5&" type="video/mp4">
+            </video>
+            <h3>เลือก Template</h3>
+            <p>เลือก Template ที่ต้องการจากระบบ เพื่อเริ่มสร้างเอกสาร</p>
         </div>
-    </section>
+ 
+        <div class="step">
+            <div class="step-number">2</div>
+            <video autoplay loop muted playsinline class="step-video">
+                <source src="https://cdn.discordapp.com/attachments/956103263659368458/1336381821713125407/COM_2_1.mp4?ex=67a39a0f&is=67a2488f&hm=c2bee1ddb774ca99ab67ba21f617e63361f0038fb7b990383bef85f11677310a&" type="video/mp4">
+            </video>
+            <h3>กรอกข้อมูล</h3>
+            <p>กรอกข้อมูลที่จำเป็นในแบบฟอร์มที่กำหนด</p>
+        </div>
+ 
+        <div class="step">
+            <div class="step-number">3</div>
+            <video autoplay loop muted playsinline class="step-video">
+                <source src="https://cdn.discordapp.com/attachments/956103263659368458/1336381823286116503/COM_3_1.mp4?ex=67a39a0f&is=67a2488f&hm=f31b38546c62aad734da0e1b68cdc16b0d430621c244cf6ade1f4e18cd209ddd&" type="video/mp4">
+            </video>
+            <h3>สร้างเอกสาร</h3>
+            <p>ระบบจะสร้างเอกสารให้โดยอัตโนมัติ พร้อมให้ดาวน์โหลด</p>
+        </div>
+    </div>
+ </section>
 
     <!-- Book Section -->
     <section class="book" id="book">
