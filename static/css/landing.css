@@ -274,7 +274,7 @@ body,html {
 }
 
 .steps {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -302,15 +302,8 @@ body,html {
     font-weight: bold;
 }
 
-.step-image {
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-    margin-bottom: 1rem;
-}
-
 .step-video {
-    width: 100%;
+    width: auto;
     height: 200px; /* Adjust height as needed */
     object-fit: cover;
     border-radius: 0.5rem;
